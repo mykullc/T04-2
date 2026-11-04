@@ -83,3 +83,10 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+
+/* T04-3: Responsive SVG container */
+.responsive-svg-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
