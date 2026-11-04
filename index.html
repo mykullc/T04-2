@@ -9,70 +9,13 @@
 </head>
 <body>
 
-    <!-- Header and navigation -->
-    <header>
-        <a href="#" onclick="goHomeFromLogo(); return false;">
-            <img src="PowerIcon.png" alt="Power Icon - Home">
-        </a>
+<h1>Appliance Energy Consumption</h1>
 
-        <nav>
-            <a href="#" class="active" onclick="goHome(); return false;">Home</a>
-            <a href="#" onclick="goTelevisions(); return false;">Televisions</a>
-            <a href="#" onclick="goAboutUs(); return false;">About Us</a>
-        </nav>
-    </header>
+<div id="content"></div>
 
-    <!-- Main content -->
-    <main>
-        <h1>Appliance Energy Consumption</h1>
+<svg width="300" height="150"></svg>
 
-        <p>
-            Appliances use energy every day in Australian households. Understanding
-            how much energy appliances consume can help people reduce electricity
-            use, save money and make more environmentally friendly choices.
-        </p>
-
-        <!-- Energy usage section -->
-        <section>
-            <h2>Energy Usage</h2>
-            <p>
-                Energy usage describes the amount of electricity an appliance needs
-                to operate. Appliances that are used for long periods may consume
-                more energy.
-            </p>
-        </section>
-
-        <!-- Energy efficiency section -->
-        <section>
-            <h2>Energy Efficiency</h2>
-            <p>
-                Energy-efficient appliances use less electricity while still
-                performing their main functions. Choosing efficient appliances can
-                help reduce household energy consumption.
-            </p>
-        </section>
-
-        <!-- Australian households section -->
-        <section>
-            <h2>Australian Households</h2>
-            <p>
-                Australian households use a variety of appliances, including
-                televisions, refrigerators, washing machines and air conditioners.
-                Learning about their energy use can support better decisions.
-            </p>
-        </section>
-
-        <!-- Television page link -->
-        <button type="button" onclick="goTelevisions()">Explore Televisions</button>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>2026 Michael Cho</p>
-        <p>Appliance Energy Consumption Website</p>
-        <p>GenAI was used to assist with the development of this website.</p>
-    </footer>
-
-    <script src="app.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="energy-d3.js"></script>
 </body>
 </html>
